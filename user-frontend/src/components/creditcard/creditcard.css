@@ -1,0 +1,79 @@
+.credit-card {
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(to right, #3b3b3b, #232323);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    top:20%;
+    left:38%;
+    animation: colorChange 2s infinite alternate;
+
+    
+}
+
+
+
+
+.card-logo {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #FFD700;
+    
+}
+
+
+
+
+.chip {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.chip img {
+    width: 50px;
+}
+
+
+
+.card-number {
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 80px 0;
+}
+
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    div {
+        text-align: left;
+    }
+}
+
+
+
+@keyframes colorChange {
+    0% {
+        background: linear-gradient(to right, #3b3b3b, #232323);
+    }
+
+    100% {
+        background: linear-gradient(to right, #232323, #3b3b3b);
+    }
+}

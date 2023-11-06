@@ -1,0 +1,47 @@
+// test user 1
+{
+  "fullName": "John Doe",
+  "email": "johndoe@example.com",
+  "phoneNumber": "+27 55 555 5555",
+  "password": "P@ssw0rd123"
+}
+
+//test user 2
+{
+  "fullName": "Alice Johnson",
+  "email": "alice.j@example.com",
+  "phoneNumber": "+27 21 234 5678",
+  "password": "SecurePwd!23"
+}
+
+// test user 3
+{
+  "fullName": "Bob Smith",
+  "email": "bob.smith@example.org",
+  "phoneNumber": "+27 12 156 7890",
+  "password": "Passw0rd$"
+}
+
+// test user 4
+{
+  "fullName": "Ella Davis",
+  "email": "ella.davis@example.net",
+  "phoneNumber": "+27 12 876 5432",
+  "password": "StrongP@ssw0rd"
+}
+
+// test user 5
+{
+  "fullName": "David Lee",
+  "email": "david.lee@example.co.uk",
+  "phoneNumber": "+44 20 765 4321",
+  "password": "Secret#12345"
+}
+
+// test user 6
+{
+  "fullName": "Grace Brown",
+  "email": "grace.b@example.ca",
+  "phoneNumber": "+27 65 654 3210",
+  "password": "MyP@ss123!"
+}
